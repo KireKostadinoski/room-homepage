@@ -60,13 +60,6 @@ function updateContent(index) {
         newClasses.forEach(cls => heroBg.classList.add(cls));
     });
 
-    // Add new background class
-   
-
-    // Debugging logs
-    console.log(`Updating to index: ${index}`);
-    console.log(`Adding classes: ${backgrounds[index]}`);
-    console.log('Current class list:', heroBg.classList);
 
     // Apply the animation class
     title.classList.add('animate-moveAndFade');

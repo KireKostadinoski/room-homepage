@@ -684,6 +684,14 @@ video {
   background-image: url('../images/mobile-image-hero-1.jpg');
 }
 
+.bg-hero2mobile {
+  background-image: url('../images/mobile-image-hero-2.jpg');
+}
+
+.bg-hero3mobile {
+  background-image: url('../images/mobile-image-hero-3.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -736,6 +744,21 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -863,6 +886,14 @@ video {
     background-image: url('../images/desktop-image-hero-1.jpg');
   }
 
+  .lg\:bg-hero2desktop {
+    background-image: url('../images/desktop-image-hero-2.jpg');
+  }
+
+  .lg\:bg-hero3desktop {
+    background-image: url('../images/desktop-image-hero-3.jpg');
+  }
+
   .lg\:p-24 {
     padding: 6rem;
   }
@@ -875,6 +906,11 @@ video {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:hover\:bg-VeryDarkGray:hover {
