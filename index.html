@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Room homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="flex flex-col lg:flex lg:flex-row">
+        <div
+            class="w-full h-[60vh] bg-hero3mobile bg-cover bg-center bg-no-repeat relative lg:bg-hero3desktop lg:w-[60%] lg:h-[60vh]" id="heroBg">
+            <!-- mobile menu -->
+            <div id="mobileMenu"
+                class="flex flex-row justify-between items-center bg-white z-10 w-full h-22 p-10 absolute -top-32 lg:hidden">
+                <div>
+                    <img src="./images/icon-close.svg" alt="" id="closeMenu">
+                </div>
+                <ul class="flex flex-row font-bold text-black text-lg space-x-10">
+                    <li><a href="#" class="cursor-pointer">home</a></li>
+                    <li><a href="#" class="cursor-pointer">shop</a></li>
+                    <li><a href="#" class="cursor-pointer">about</a></li>
+                    <li><a href="#" class="cursor-pointer">contact</a></li>
+                </ul>
+            </div>
+            <nav id="nav"
+                class="p-10 flex flex-row justify-center items-center relative lg:justify-start lg:space-x-16 lg:px-4 ">
+                <div class="lg:hidden">
+                    <img src="./images/icon-hamburger.svg" id="hamburgerMenu" alt=""
+                        class="cursor-pointer absolute top-10 left-10">
+                </div>
+
+                <div class="">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <!-- desktop menu -->
+                <div id="menu" class="hidden lg:flex">
+                    <ul class="flex flex-row text-white space-x-6 text-2xl">
+                        <li><a href="#"
+                                class="cursor-pointer pb-3 hover:border-b-4 hover:border-White duration-100">home</a>
+                        </li>
+                        <li><a href="#"
+                                class="cursor-pointer pb-3 hover:border-b-4 hover:border-White duration-100">shop</a>
+                        </li>
+                        <li><a href="#"
+                                class="cursor-pointer pb-3 hover:border-b-4 hover:border-White duration-100">about</a>
+                        </li>
+                        <li><a href="#"
+                                class="cursor-pointer pb-3 hover:border-b-4 hover:border-White duration-100">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="leftBtn"
+                class="flex justify-center items-center absolute bottom-0 right-16 w-16 h-14 bg-Black cursor-pointer z-10 hover:bg-VeryDarkGray duration-100 lg:bottom-0 lg:-right-16  lg:hover:bg-VeryDarkGray">
+                <img src="./images/icon-angle-left.svg" alt="">
+            </div>
+            <div id="rightBtn"
+                class="flex justify-center items-center absolute bottom-0 right-0 w-16 h-14 bg-Black cursor-pointer z-10 hover:bg-VeryDarkGray duration-100 lg:bottom-0 lg:-right-32 lg:hover:bg-VeryDarkGray">
+                <img src="./images/icon-angle-right.svg" alt="">
+            </div>
+
+        </div>
+
+
+
+        <div class="w-full px-5 py-10 flex flex-col justify-start space-y-5 lg:w-[40%] lg:h-[60vh] lg:p-24 lg:relative">
+            <h1 class="font-sans text-3xl font-bold lg:text-4xl" id="title">Discover innovative ways to decorate</h1>
+            <p class="text-DarkGray" id="description">
+                We provide unmatched quality, comfort, and style for property owners
+                across the country. Our experts combine form and function in bringing
+                your vision to life. Create a room in your own style with our
+                collection and make your property a reflection of you and what you
+                love.
+            </p>
+            <div class="flex flex-row space-x-2 items-center hover:text-DarkGray duration-100 cursor-pointer">
+                <h2 class="tracking-extra-wide">SHOP NOW</h2>
+                <img src="./images/icon-arrow.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col lg:flex lg:flex-row">
+        <div class="w-full h-[40vh] lg:w-[30%]"
+            style="background: url('./images/image-about-dark.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+        </div>
+        <div class="flex flex-col justify-start space-y-4 px-5 py-10 lg:w-[39%]">
+            <h3 class="font-sans tracking-extra-wide0 font-bold text-lg uppercase">About our furniture</h3>
+            <p class="text-DarkGray">
+                Our multifunctional collection blends design and function to suit
+                your individual taste. Make each room unique, or pick a cohesive
+                theme that best express your interests and what inspires you. Find
+                the furniture pieces you need, from traditional to contemporary
+                styles or anything in between. Product specialists are available to
+                help you create your dream space.
+            </p>
+        </div>
+        <footer id="footer" class="w-full h-[40vh] lg:w-[32%]"
+            style="background: url('./images/image-about-light.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
