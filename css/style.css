@@ -610,6 +610,10 @@ video {
   height: 60vh;
 }
 
+.h-\[30vh\] {
+  height: 30vh;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -646,12 +650,6 @@ video {
   justify-content: space-between;
 }
 
-.space-x-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -686,14 +684,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-hero1mobile {
-  background-image: url('../images/mobile-image-hero-1.jpg');
-}
-
-.bg-hero2mobile {
-  background-image: url('../images/mobile-image-hero-2.jpg');
-}
-
 .bg-hero3mobile {
   background-image: url('../images/mobile-image-hero-3.jpg');
 }
@@ -722,6 +712,11 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-3 {
@@ -830,6 +825,10 @@ video {
     height: 60vh;
   }
 
+  .lg\:h-\[70vh\] {
+    height: 70vh;
+  }
+
   .lg\:w-\[30\%\] {
     width: 30%;
   }
@@ -862,14 +861,6 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:bg-hero1desktop {
-    background-image: url('../images/desktop-image-hero-1.jpg');
-  }
-
-  .lg\:bg-hero2desktop {
-    background-image: url('../images/desktop-image-hero-2.jpg');
   }
 
   .lg\:bg-hero3desktop {
